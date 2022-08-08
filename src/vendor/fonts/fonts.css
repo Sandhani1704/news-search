@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Regular.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Medium.woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-SemiBold.woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url("Comfortaa-Regular.ttf");
+  font-weight: 400;
+}

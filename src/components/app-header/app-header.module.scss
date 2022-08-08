@@ -1,0 +1,151 @@
+.header {
+  display: flex;
+  font-family: "Comfortaa", cursive, Arial, sans-serif;
+  font-size: 22.44px;
+  font-weight: 400;
+  line-height: 31.72;
+  align-items: center;
+  justify-content: center;
+  max-width: 1280px;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #dbdbdb;
+  &__logo {
+    width: 122.07px;
+    height: 32px;
+    align-items: center;
+  }
+  &__container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+  }
+  &__infoCont {
+    display: flex;
+    max-width: 1078px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__nav {
+    display: flex;
+    max-width: 407px;
+    width: 100%;
+    height: 60px;
+  }
+  &__menu {
+    display: flex;
+    max-width: 407px;
+    width: 100%;
+    height: 60px;
+    padding: 0 0 0 81.93px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #18a0fb;
+    justify-content: space-between;
+    text-align: center;
+    height: 60px;
+    margin: 0;
+  }
+  &__menuItem {
+    cursor: pointer;
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    max-width: 611px;
+    gap: 27px;
+    width: 100%;
+    height: 40px;
+  }
+  &__buttonSearch {
+    cursor: pointer;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  &__searchFormCont {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    height: 40px;
+  }
+  &__searchInput {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 11px;
+    max-width: 300px;
+    width: 100%;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #18a0fb;
+    border-radius: 6px;
+  }
+  &__searchButtonClose {
+    background: none;
+    background-image: url("../../images/CloseIcon.svg");
+    border: none;
+    width: 18px;
+    height: 18px;
+    margin-left: -55px;
+    cursor: pointer;
+  }
+  &__buttonLogin {
+    background: #ffffff;
+    border: 1px solid #18a0fb;
+    border-radius: 6px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 130px;
+    width: 100%;
+    height: 40px;
+    letter-spacing: -0.015em;
+    color: #18a0fb;
+    cursor: pointer;
+  }
+  &__buttonRegister {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 130px;
+    width: 100%;
+    height: 40px;
+    background: #18a0fb;
+    border-color: #18a0fb;
+    border-radius: 6px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
