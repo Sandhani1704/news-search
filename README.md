@@ -2,9 +2,6 @@
 
 React-приложение по поиску новостей c использованием сервиса https://newsapi.org/
   
-
-[Ссылка на проект](https://sandhani1704.github.io/news-search/)
-
 ## Технологии
 
 HTML, SCSS, React, Redux, TypeScript
